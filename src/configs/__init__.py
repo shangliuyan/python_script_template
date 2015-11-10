@@ -1,6 +1,10 @@
 #coding=utf8
 
+import os
+import importlib
+
 ENVIRONMENT_VARIABLE = "SETTINGS_MODULE"
+empty = object()
 
 class Settings_wrapped(object):
     pass
